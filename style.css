@@ -1,13 +1,24 @@
+body {
+    background: linear-gradient(#6581BD, #7d57ac);
+    
+}
+nav {
+    background-color:rgba(199, 199, 199, 0.795);
+    
+}
+
 footer {
     display: flex;
-    background-color: rgb(182, 182, 182);
+    background-color: rgba(126, 126, 126, 0.795);
     margin: 0px;
     justify-content: center;
+    max-height: 45px;
 }
 h4 {
     font-family: monospace;
     color: #e4ebf7;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 15px 20px 15px 20px;
 }
 footer img {
         max-width: 10%;
