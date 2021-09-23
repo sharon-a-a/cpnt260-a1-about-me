@@ -1,16 +1,64 @@
 body {
     background: linear-gradient(#6581BD, #7d57ac);
-    
+    justify-content: center;
+
 }
 nav {
     background-color:rgba(199, 199, 199, 0.795);
-    
+    justify-content: space-around;
+    align-items: flex-end;
+    max-height: 70%;
+    margin: -10px;
+}
+nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 5px;
+}
+.me {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    align-items: flex-start;
+    font-size: 40px;
+}
+article img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(211, 197, 252);
+    max-width: 500px;
+    padding: 40px;
+    margin: 15px;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    color: silver;
 }
 
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 footer {
     display: flex;
     background-color: rgba(126, 126, 126, 0.795);
-    margin: 0px;
+    margin: -15px;
     justify-content: center;
     max-height: 45px;
 }
@@ -24,3 +72,8 @@ footer img {
         max-width: 10%;
         align-items: center;
     }
+    /* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ 
