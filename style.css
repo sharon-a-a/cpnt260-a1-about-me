@@ -17,6 +17,11 @@ nav ul li {
     text-decoration: none;
     color: black;
     padding: 5px;
+    margin: 15px;
+}
+nav a {
+    display: flex;
+    margin: 15px;
 }
 h1 {
     display: flex;
@@ -39,7 +44,7 @@ article img {
     background-color: rgb(211, 197, 252);
     max-width: 500px;
     padding: 40px;
-    margin: 15px;
+    margin: 30px;
 }
 article {
     display: flex;
@@ -47,8 +52,15 @@ article {
     text-align: center;
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     color: silver;
+    margin: 40px;
 }
-
+section {
+    max-width: 75ch;
+    align-items: center;
+    font-size: 25px;
+    margin: 50px;
+    font-family: monospace;
+}
 aside {
     display: flex;
     justify-content: center;
