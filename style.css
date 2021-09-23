@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(#6581BD, #7d57ac);
     justify-content: center;
-
 }
 nav {
     background-color:rgba(199, 199, 199, 0.795);
@@ -84,7 +83,8 @@ footer img {
         max-width: 10%;
         align-items: center;
     }
-    /* .container {
+
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
